@@ -1,0 +1,36 @@
+# Dependencies and Expo state
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Native and signing material
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Local media and generated data
+videos/
+*.mov
+*.mp4
+*.log
+
+# Editors, caches, and operating systems
+.vscode/
+.idea/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Internal working notes
+.claude/
+HANDOFF.md
+NEXT_SESSION_PROMPT.md
